@@ -1,0 +1,4 @@
+SELECT TOP 76 *
+FROM Author
+WHERE [Name] NOT LIKE '.%'
+ORDER BY [Name] ASC
