@@ -1,4 +1,4 @@
-SELECT *
+SELECT count(*)
 FROM Poem p
 WHERE NOT EXISTS
   (
